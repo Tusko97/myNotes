@@ -41,7 +41,7 @@ const users = [
       favoriteColor: "Blue",
       favoriteAnimal: "Penguin",
       personalQuote:
-        "You don’t have to see the whole staircase, just take the first step",
+        "You don\’t have to see the whole staircase, just take the first step",
     },
     {
       firstName: "Drew",
@@ -49,7 +49,7 @@ const users = [
       favoriteColor: "Yellow",
       favoriteAnimal: "Elephant",
       personalQuote:
-        "Failure is not the opposite of success: it’s part of success",
+        "Failure is not the opposite of success: it\’s part of success",
     },
   ];
 

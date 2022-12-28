@@ -5,7 +5,7 @@
 
 const originalNumbers = [1, 2, 3, 4, 5];
 
-const squaredNumbers = map(originalNumbers, function (num) {
+const squaredNumbers = originalNumbers.map(function (num) {
   return num * num;
 });
 
@@ -25,7 +25,7 @@ const oldAccounts = [
     { userID: 44, title: "Developer Apprentice", accessLevel: "user" },
   ];
   
-  const newEngineers = map(oldAccounts, function (account) {
+  const newEngineers = oldAccounts.map(function (account) {
     return Object.assign({}, account, { accessLevel: "admin" });
   });
   
