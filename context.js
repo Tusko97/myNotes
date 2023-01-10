@@ -122,3 +122,5 @@ thorIntro("I love snakes") //=> Thor Odinsson says: I love snakes
 // The context object can be explicitly set in a function by invoking call on the function and passing an object (thisArg) as the first argument; the object can then be accessed via this inside the function. Additional parameters to the function are listed after thisArg.
 // The context object can be explicitly set in a function by invoking apply on the function and passing an object (thisArg) as the first argument; the object can then be accessed via this inside the function. Additional parameters to the function are stored in an array which is passed as the second argument.
 // The context object can be locked in a function by invoking bind on the function and passing it a thisArg. The bind function makes a copy of the functionality of the function it was called on, but with all the this stuff locked in place, and returns that function. That new function can have arguments passed to it with () as usual.
+
+
