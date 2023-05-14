@@ -62,7 +62,8 @@ const users = [
   // LOG: Avidor
   // LOG: Drew
 
-  //Now what if we want to filter our collection of users for those whose favorite color is red? We could define an entirely new function, redFilter(), but that seems wasteful. Instead, let's just pass in the color that we want to filter for as an argument:
+  //Now what if we want to filter our collection of users for those whose favorite color is red? 
+  // We could define an entirely new function, redFilter(), but that seems wasteful. Instead, let's just pass in the color that we want to filter for as an argument:
 
   function colorFilter(collection, color) {
     for (const user of collection) {

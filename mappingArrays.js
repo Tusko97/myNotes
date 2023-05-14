@@ -1,7 +1,8 @@
 // Another very common built-in array method is .map(), which transforms every element in an array to another value.
 // Like .filter(), .map() accepts a callback function, and passes each element in turn to the callback:
 // Array.prototype.map() is a method that iterates over an array and applies a function to each element, modifying it in some way. 
-// While both .filter() and .map() return a new array, .filter() returns a subset of the original array (unless all elements meet the provided condition) in which the elements are unchanged. .map(), on the other hand, returns a new array that's the same length as the original array in which the elements have been modified.
+// While both .filter() and .map() return a new array, .filter() returns a subset of the original array (unless all elements meet the provided condition) in which the elements are unchanged. 
+// .map(), on the other hand, returns a new array that's the same length as the original array in which the elements have been modified.
 
 const originalNumbers = [1, 2, 3, 4, 5];
 

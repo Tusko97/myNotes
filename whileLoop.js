@@ -1,3 +1,8 @@
+const myArray = [23, 34, 45, 56]
+console.log(myArray)
+myArray.shift()
+console.log(myArray)
+
 // WHILE LOOP
 let gift = ["teddy bear", "drone", "doll"];
 

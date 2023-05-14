@@ -1,5 +1,6 @@
 // most common events in JS
-// In order for JavaScript to handle an event, we first need to tell it to listen for that event. We do this by calling the addEventListener() method on the element we want to add the listener to, and passing it two arguments:
+// In order for JavaScript to handle an event, we first need to tell it to listen for that event. 
+// We do this by calling the addEventListener() method on the element we want to add the listener to, and passing it two arguments:
 
 // the name of the event to listen for, and
 // a callback function to "handle" the event
@@ -16,7 +17,8 @@ input.addEventListener('click', function() {
 
 // First, we grab the element that we want to add the event listener to and save a reference to it in the input variable.
 
-// Next, we call addEventListener() on that element to tell JavaScript to listen for the event. We pass two arguments to addEventListener(): the name of the event to listen for (in this case, click) and a callback function that will be executed when the event is "heard."
+// Next, we call addEventListener() on that element to tell JavaScript to listen for the event. 
+// We pass two arguments to addEventListener(): the name of the event to listen for (in this case, click) and a callback function that will be executed when the event is "heard."
 
 
 // another way of doing it
